@@ -25,6 +25,7 @@ jQuery('a[href^="#"]').on("click", function() {
         scrollTop:position
     },
     1000);
+    return false;
 });
 
 // mobileNav
